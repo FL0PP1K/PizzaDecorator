@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PizzaDecorator.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="IPizza.cpp">
@@ -24,12 +24,24 @@
     <ClCompile Include="BasicPizza.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PizzaDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingredients.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IPizza.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BasicPizza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingredients.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
